@@ -1,0 +1,17 @@
+< ?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE preferences SYSTEM 'http://java.sun.com/dtd/preferences.dtd'>
+ 
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map />
+    <node name="&lt;unnamed&gt;">
+      <map>
+        <entry key="url" value="http://automationpractice.com/index.php"" />
+        <entry key="userfont" value="Courier New" />
+        <entry key="lastuserlogin" value="Joris Van den Bogaert" />
+        <entry key="ldapurl" value="ldap://127.0.0.1:389/" />
+      </map>
+    </node>
+  </root>
+</preferences>

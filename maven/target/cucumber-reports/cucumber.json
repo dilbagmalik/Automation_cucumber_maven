@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Test Login functionality",
+        "description": "",
+        "id": "login-functionality-feature;test-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10786997875,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Open URL",
+            "match": {
+              "location": "HomePage_Steps.I_Open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1396452063,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I clicks on sign in link",
+            "match": {
+              "location": "HomePage_Steps.I_clicks_on_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91702330,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login page should open",
+            "match": {
+              "location": "HomePage_Steps.login_page_should_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Search product",
+        "description": "",
+        "id": "login-functionality-feature;search-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108550919,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I search product",
+            "match": {
+              "location": "SearchProduct_Steps.I_search_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 913635097,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter search criteria",
+            "match": {
+              "location": "SearchProduct_Steps.I_enter_search_criteria()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120233,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "product should display",
+            "match": {
+              "location": "SearchProduct_Steps.product_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Click on Product and Add to Cart",
+        "description": "",
+        "id": "login-functionality-feature;click-on-product-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1163121825,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I choose pruduct",
+            "match": {
+              "location": "AddToCart_Steps.I_choose_pruduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325820932,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Add to cart",
+            "match": {
+              "location": "AddToCart_Steps.Add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45494842,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "product added to Cart",
+            "match": {
+              "location": "AddToCart_Steps.product_added_to_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Go to Checkout page",
+        "description": "",
+        "id": "login-functionality-feature;go-to-checkout-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 99687547,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on ProceedToCheckoutbtn",
+            "match": {
+              "location": "CheckOut_Steps.I_click_on_ProceedToCheckoutbtn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 874336436,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Product summary should display",
+            "match": {
+              "location": "CheckOut_Steps.Product_summary_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality feature",
+    "description": "To make sure Login functionality works\r\nRun cucucmber test to verify it is working",
+    "id": "login-functionality-feature",
+    "keyword": "Feature",
+    "uri": "features/demo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@checkout"
+      }
+    ]
+  }
+]
