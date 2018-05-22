@@ -1,0 +1,52 @@
+1) database --access remote machine, 
+2) Global variable to access URL-environment variable
+3)Report- screenshot capture
+4) Sauce lab - parallel execution
+5) gulp -- 
+6) jenkin
+7) github
+8) Cron Jobs (auto jobs in jenkin)
+9) UI Testing
+10) Performance test
+11)Accessibility test
+12) API Testing
+13 Testng
+
+14) security using automation
+
+Postman- for API testing
+
+
+-----------mysql----------
+
+username - root
+pwd- dilurmig81
+
+
+newuser'@'localhost' IDENTIFIED BY 'password';
+
+----------------
+
+Hooks in cucumber
+How to run multiple feature files
+
+Output input
+
+Action and Robot Class
+
+User preference class to store environment and global variables
+
+public interface GlobalConstants- use interface and then implement those interface
+
+in this way, we can access variable's values directly.
+
+How to synchronized static variable if used by multiple threads
+
+data member of interfaces is always static and final even these are not declared static and final
+
+https://www.tutorialspoint.com/java/java_multithreading.htm
+
+
+
+
+
