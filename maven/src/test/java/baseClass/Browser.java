@@ -19,7 +19,7 @@ public class Browser {
 	
 	public Browser() {
 		
-		pref.get("url", "1");
+	//	pref.get("url", "1");
 		url.Getconfigdata();
 		System.setProperty("webdriver.gecko.driver", "D:\\D-Drive\\Eclipse\\geckodriver-v0.19.1-win64\\geckodriver.exe");
 		driver = new FirefoxDriver();

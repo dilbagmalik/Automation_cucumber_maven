@@ -21,7 +21,7 @@ public class HomePage {
 		
 	}	*/
 	
-	@FindBy(how=How.CLASS_NAME, using = "login1")
+	@FindBy(how=How.CLASS_NAME, using = "login")
 	public  WebElement SignIn;
 	
 	
