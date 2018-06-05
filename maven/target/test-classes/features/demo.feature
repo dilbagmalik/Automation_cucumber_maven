@@ -21,3 +21,7 @@ Then product added to Cart
 Scenario: Go to Checkout page 
 Given I click on ProceedToCheckoutbtn
 Then Product summary should display
+
+Scenario: Go to contact Us page
+Given I click on contact Us link
+Then Contact Us page should display
