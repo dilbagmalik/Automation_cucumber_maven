@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import readdata.Config;
-import readdata.Getdata;
+import com.company.automation.tests.Config;
+import com.company.automation.tests.Getdata;
 
 public class Search {
 

@@ -1,4 +1,4 @@
-package readdata;
+package com.company.automation.tests;
 
 public class Config {
 

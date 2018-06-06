@@ -7,7 +7,6 @@ import org.openqa.selenium.TakesScreenshot;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 
-import baseClass.Browser;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 

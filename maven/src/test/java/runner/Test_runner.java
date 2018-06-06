@@ -7,11 +7,11 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import com.company.automation.tests.Browser;
 import com.company.automation.tests.Hooks;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 
-import baseClass.Browser;
 import cucumber.api.CucumberOptions;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;

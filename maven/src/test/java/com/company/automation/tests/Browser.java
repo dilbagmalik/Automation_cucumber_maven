@@ -1,4 +1,4 @@
-package baseClass;
+package com.company.automation.tests;
 
 import java.util.prefs.Preferences;
 
@@ -7,9 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import com.company.automation.pages.HomePage;
-
-import readdata.Config;
-import readdata.Getdata;
 
 public class Browser {
 	public  static WebDriver driver;
