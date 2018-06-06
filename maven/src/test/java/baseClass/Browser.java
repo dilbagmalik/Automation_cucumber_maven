@@ -6,7 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import productCheckoutPages.HomePage;
+import com.company.automation.pages.HomePage;
+
 import readdata.Config;
 import readdata.Getdata;
 

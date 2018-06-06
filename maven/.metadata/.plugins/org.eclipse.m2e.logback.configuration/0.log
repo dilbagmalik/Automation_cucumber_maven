@@ -260,3 +260,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration Test_runner referen
 2018-06-05 23:47:01,224 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\D-Drive\Eclipse\maven\src\main\resources
 2018-06-05 23:47:01,231 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-06-05 23:47:01,231 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\D-Drive\Eclipse\maven\src\test\resources
+2018-06-06 13:56:59,382 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-06 13:57:07,394 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-06 13:57:07,395 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\D-Drive\Eclipse\maven\src\main\resources
+2018-06-06 13:57:07,398 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-06 13:57:07,398 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\D-Drive\Eclipse\maven\src\test\resources
