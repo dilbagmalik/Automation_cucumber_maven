@@ -1,4 +1,4 @@
-package baseClass;
+package com.company.automation.tests;
 
 public class CloseQuit {
 	public void CloseQuitBrowser() {

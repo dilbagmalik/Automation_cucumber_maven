@@ -7,7 +7,6 @@ import com.company.automation.pages.HomePage;
 import com.company.automation.pages.LoginPage;
 import com.company.automation.pages.Search;
 
-import baseClass.Browser;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

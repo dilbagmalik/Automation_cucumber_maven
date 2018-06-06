@@ -10,8 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.company.automation.tests.Browser;
 
-import baseClass.Browser;
 import extentReports.ExtentManager;
 
 public class LoginPage  { //extends HomePage 
