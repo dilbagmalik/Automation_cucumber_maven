@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import com.company.automation.tests.Hooks;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 
@@ -16,7 +17,6 @@ import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.junit.Cucumber;
 import extentReports.ExtentManager;
-import productCheckoutSteps.Hooks;
 import cucumber.api.Scenario;
 //
 import org.junit.runner.RunWith;
@@ -28,7 +28,7 @@ import cucumber.api.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(strict = false,
 features = {"classpath:features"} 
-,glue={"classpath:productCheckoutSteps"},
+,glue={"classpath:com.company.automation.tests"},
 //tags= {"@checkout"},
 plugin = {"pretty",
 		"json:target/cucumber.json",
