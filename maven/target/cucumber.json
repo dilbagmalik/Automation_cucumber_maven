@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 170456,
+              "duration": 121374,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10131040376,
+              "duration": 15214555992,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1911068235,
+              "duration": 1275609902,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 95053326,
+              "duration": 101471663,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
         "after": [
           {
             "result": {
-              "duration": 45277,
+              "duration": 50224,
               "status": "passed"
             },
             "match": {
@@ -80,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 92817239,
+              "duration": 76188310,
               "status": "passed"
             },
             "line": 11,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 1091506481,
+              "duration": 880527392,
               "status": "passed"
             },
             "line": 12,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 141158,
+              "duration": 102349,
               "status": "passed"
             },
             "line": 13,
@@ -124,7 +124,7 @@
         "after": [
           {
             "result": {
-              "duration": 34244,
+              "duration": 46419,
               "status": "passed"
             },
             "match": {
@@ -137,7 +137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1938213664,
+              "duration": 1236938557,
               "status": "passed"
             },
             "line": 17,
@@ -149,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 292761613,
+              "duration": 317515717,
               "status": "passed"
             },
             "line": 18,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 42202971,
+              "duration": 56358392,
               "status": "passed"
             },
             "line": 19,
@@ -181,7 +181,7 @@
         "after": [
           {
             "result": {
-              "duration": 93978,
+              "duration": 41472,
               "status": "passed"
             },
             "match": {
@@ -194,7 +194,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78427441,
+              "duration": 86155393,
               "status": "passed"
             },
             "line": 22,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 1101962103,
+              "duration": 787052302,
               "status": "passed"
             },
             "line": 23,
@@ -226,7 +226,7 @@
         "after": [
           {
             "result": {
-              "duration": 36526,
+              "duration": 57072,
               "status": "passed"
             },
             "match": {
@@ -239,7 +239,7 @@
         "steps": [
           {
             "result": {
-              "duration": 884284644,
+              "duration": 719142122,
               "status": "passed"
             },
             "line": 26,
@@ -251,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 27395,
+              "duration": 20927,
               "status": "passed"
             },
             "line": 27,
@@ -268,7 +268,7 @@
     "description": "To make sure Login functionality works\r\nRun cucucmber test to verify it is working",
     "id": "login-functionality-feature",
     "keyword": "Feature",
-    "uri": "demo.feature"
+    "uri": "com/company/automation/tests/demo.feature"
   },
   {
     "line": 1,
@@ -281,7 +281,7 @@
         "after": [
           {
             "result": {
-              "duration": 51745,
+              "duration": 44897,
               "status": "passed"
             },
             "match": {
@@ -294,7 +294,7 @@
         "steps": [
           {
             "result": {
-              "duration": 67465017,
+              "duration": 63460073,
               "status": "passed"
             },
             "line": 4,
@@ -306,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 1082422113,
+              "duration": 1188712950,
               "status": "passed"
             },
             "line": 5,
@@ -318,7 +318,7 @@
           },
           {
             "result": {
-              "duration": 79140,
+              "duration": 64682,
               "status": "passed"
             },
             "line": 6,
@@ -338,7 +338,7 @@
         "after": [
           {
             "result": {
-              "duration": 79140,
+              "duration": 56311,
               "status": "passed"
             },
             "match": {
@@ -351,7 +351,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1536583074,
+              "duration": 849493446,
               "status": "passed"
             },
             "line": 10,
@@ -363,7 +363,7 @@
           },
           {
             "result": {
-              "duration": 264862831,
+              "duration": 281906865,
               "status": "passed"
             },
             "line": 11,
@@ -375,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 43697501,
+              "duration": 68603417,
               "status": "passed"
             },
             "line": 12,
@@ -395,7 +395,7 @@
         "after": [
           {
             "result": {
-              "duration": 39190,
+              "duration": 51746,
               "status": "passed"
             },
             "match": {
@@ -408,7 +408,7 @@
         "steps": [
           {
             "result": {
-              "duration": 69583537,
+              "duration": 68901334,
               "status": "passed"
             },
             "line": 15,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 1220985743,
+              "duration": 909453473,
               "status": "passed"
             },
             "line": 16,
