@@ -6,8 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.company.automation.pages.HomePage;
-
 public class Browser {
 	public  static WebDriver driver;
 

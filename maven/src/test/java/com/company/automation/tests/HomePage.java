@@ -1,4 +1,4 @@
-package com.company.automation.pages;
+package com.company.automation.tests;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;

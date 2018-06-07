@@ -1,4 +1,4 @@
-package com.company.automation.pages;
+package com.company.automation.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
