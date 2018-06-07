@@ -1,4 +1,4 @@
-package com.company.automation.pages;
+package com.company.automation.tests;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.company.automation.tests.Browser;
 
 import extentReports.ExtentManager;
 

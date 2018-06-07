@@ -3,8 +3,6 @@ package com.company.automation.tests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.company.automation.pages.CheckoutPage;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
