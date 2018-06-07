@@ -27,7 +27,7 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(strict = false,
-features = {"classpath:features"} 
+features = {"classpath:com.company.automation.tests/demo.feature"} 
 ,glue={"classpath:com.company.automation.tests"},
 //tags= {"@checkout"},
 plugin = {"pretty",
