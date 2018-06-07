@@ -1,27 +1,13 @@
 package com.company.automation.tests;
 
-import java.io.File;
-import java.net.ServerSocket;
-
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.util.Iterator;
-
-
 
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-//import com.mysql.jdbc.Connection;
-import com.mysql.*;
-
-import  java.sql.Statement;		
-import  java.sql.ResultSet;		
-import  java.sql.DriverManager;		
+import com.fasterxml.jackson.databind.ObjectMapper;		
 
 
 public class Getdata {
