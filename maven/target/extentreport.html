@@ -4,7 +4,7 @@
 
 
 <head>
-	<meta charset='utf-8' /> 
+	<meta charset='UTF-8' /> 
 	<meta name='description' content='' />
 	<meta name='robots' content='noodp, noydir' />
 	<meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -15,13 +15,18 @@
 
 		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>Automation report</title>
+	<title> Cucumber Framework</title>
 
 	<style type='text/css'>
+			
+      
+        
+      
+    
 	</style>
 </head>
 
-	<body class='extent standard default hide-overflow '>
+	<body class='extent standard default hide-overflow bdd-report'>
 		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
 			<span><i class='material-icons'>desktop_windows</i></span>
 		</div>
@@ -37,7 +42,7 @@
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>Regression cycle</span>
+		<span class='report-name'> Cucumber Report</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -46,7 +51,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>May 16, 2018 11:33:41 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jun 9, 2018 08:11:30 PM</span>
 				</a>
 			</li>
 			<li>
@@ -71,7 +76,8 @@
 					<i class='material-icons'>warning</i> Status
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
-										<li class='divider'></li>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
 			</div>
@@ -114,45 +120,216 @@
 
 <div id='test-view-charts' class='subview-full'>
 	<div id='charts-row' class='row nm-v nm-h'>
-		<div class='col s12 m6 l6 np-h'>
+		<div class='col s12 m4 l4 np-h'>
 			<div class='card-panel nm-v'>
-				<div class='left panel-name'>Tests</div>
+				<div class='left panel-name'>Features</div>
 				<div class='chart-box'>
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
 		
+		<div class='col s12 m4 l4 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Scenarios</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> scenario(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
 		
+		<div class='col s12 m4 l4 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>13</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
 	<div class='subview-left left'>
 		
 		<div class='view-summary'>
-			<h5>Tests</h5>
+			<h5>Features</h5>
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Login</span>
-						<span class='test-time'>May 16, 2018 11:33:41 PM</span>
+						<span class='test-name'>Login functionality feature</span>
+						<span class='test-time'>Jun 9, 2018 08:11:30 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>May 16, 2018 11:33:41 PM</span>
-	<span class='label end-time'>May 16, 2018 11:33:41 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+<div class='scenario node' test-id='2' status='pass'>
+	<span class='duration right label'>0h 0m 29s+32ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Test Login functionality</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='3' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I Open URL</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='4' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I clicks on sign in link</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='5' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then login page should open</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
 </div>
-	<div class='test-desc'>Browser launched </div>
+<div class='scenario node' test-id='6' status='pass'>
+	<span class='duration right label'>0h 0m 1s+183ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Search product</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='7' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I search product</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='8' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I enter search criteria</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='9' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then product should display</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='10' status='pass'>
+	<span class='duration right label'>0h 0m 1s+822ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Click on Product and Add to Cart</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='11' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I choose pruduct</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='12' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When Add to cart</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='13' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then product added to Cart</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='14' status='pass'>
+	<span class='duration right label'>0h 0m 1s+8ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Go to Checkout page</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='15' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I click on ProceedToCheckoutbtn</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='16' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Product summary should display</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='17' status='pass'>
+	<span class='duration right label'>0h 0m 0s+808ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Go to contact Us page</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='18' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given I click on contact Us link</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='19' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Contact Us page should display</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
 					</div>
 				</li>
 			</ul>
@@ -189,32 +366,74 @@
 		<div class='row'>
 			<div class='col s2'>
 				<div class='card-panel r'>
-					Tests
+					Features
 					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
+					Scenarios
+					<div class='panel-lead'>5</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>0</div>
+					<div class='panel-lead'>13</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 16, 2018 11:33:41 PM</div>
+					<div class='panel-lead'>Jun 9, 2018 08:11:30 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 16, 2018 11:33:45 PM</div>
+			 		<div class='panel-lead'>Jun 9, 2018 08:12:04 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 3s+575ms</div>
+					<div class='panel-lead'>0h 0m 34s+75ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>User Name</td>
+								<td>dmalik</td>
+							</tr>
+							<tr>
+								<td>Time Zone</td>
+								<td>Europe/London</td>
+							</tr>
+							<tr>
+								<td>Machine</td>
+								<td>Windows 764 Bit</td>
+							</tr>
+							<tr>
+								<td>Selenium</td>
+								<td>3.7.0</td>
+							</tr>
+							<tr>
+								<td>Maven</td>
+								<td>3.5.2</td>
+							</tr>
+							<tr>
+								<td>Java Version</td>
+								<td>1.8.0_151</td>
+							</tr>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -235,7 +454,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 0,
+				passChild: 5,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -244,7 +463,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 0,
+				passGrandChild: 13,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -259,6 +478,13 @@
 		
 		
  		<script type='text/javascript'>
+ 			
+      
+        $(document).ready(function() {
+        
+        });
+      
+    
  		</script>
 	</body>
 	
