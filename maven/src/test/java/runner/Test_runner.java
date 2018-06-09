@@ -33,7 +33,7 @@ features = {"C:\\Program Files (x86)\\Jenkins\\workspace\\Automation\\maven\\src
 plugin = {"pretty",
 		"json:target/cucumber.json",
 		"html:target/cucumber-pretty",
-		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-pretty/report.html"
+		"com.cucumber.listener.ExtentCucumberFormatter:target/extentreport.html"
 
 
 }
