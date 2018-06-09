@@ -8,7 +8,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.company.automation.tests.Browser;
-import com.company.automation.tests.ExtentManager;
 import com.company.automation.tests.Hooks;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
@@ -17,6 +16,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.junit.Cucumber;
+import extentReports.ExtentManager;
 import cucumber.api.Scenario;
 //
 import org.junit.runner.RunWith;
