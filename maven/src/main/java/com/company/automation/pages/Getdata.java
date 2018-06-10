@@ -1,4 +1,4 @@
-package com.company.automation.tests;
+package com.company.automation.pages;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -6,6 +6,7 @@ import java.util.Iterator;
 
 import org.junit.Test;
 
+import com.company.automation.tests.Config;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;		
 

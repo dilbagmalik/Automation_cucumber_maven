@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.company.automation.tests.Browser;
-
 public class CheckoutPage {
 
 /*	public WebDriver driver;
