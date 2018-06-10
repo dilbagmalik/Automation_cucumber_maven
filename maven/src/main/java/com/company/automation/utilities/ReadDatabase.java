@@ -1,7 +1,7 @@
 /**
  * 
  */
-package database;
+package com.company.automation.utilities;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -34,7 +34,7 @@ public class ReadDatabase {
 	}
 
 	
-	@Test
+//	@Test
 	public void run()  { //throws ClassNotFoundException, SQLException
 		readdatabase();
 	}
