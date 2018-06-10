@@ -1,0 +1,63 @@
+package productCheckoutSteps;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import baseClass.Browser;
+import baseClass.Setdriver;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import extentReports.ExtentManager;
+import productCheckoutPages.HomePage;
+import productCheckoutPages.LoginPage;
+@Test
+public class HomePage_Steps extends Browser  {//extends Base
+	 //public WebDriver driver;
+	
+	/*public HomePage_Steps(WebDriver driver) throws Exception {
+		super(driver);
+		
+	}*/
+	
+	//Browser browser= new Browser("firefox");
+	//Browser browser1= new Browser("chrome","");
+	//HomePage HomePage= PageFactory.initElements(driver, HomePage.class);
+	//LoginPage LoginPage = PageFactory.initElements(driver, LoginPage.class);
+	HomePage HomePage = new HomePage();
+	//LoginPage LoginPage = new LoginPage();
+	Browser browser = new Browser();
+	
+	
+	//
+	
+	@Given("^I Open URL$")
+	public void I_Open_URL() {
+	//ExtentManager.test =ExtentManager.GetExtent().createTest("Login","Browser launched");
+	browser.launchURL();		
+	
+	
+	//ExtentManager.extent.flush();
+	}
+	
+	@When("^I clicks on sign in link$")
+	public void I_clicks_on_sign_in_link() throws Exception {
+	//ExtentManager.test =ExtentManager.GetExtent().createTest("Login","SignIn Clicked");
+	
+		
+		HomePage.Sign_In();
+	
+	//ExtentManager.extent.flush();
+	}
+	
+	
+	@Then("^login page should open$")
+	public void login_page_should_open() {
+	    
+		//LoginPage.Verify_Login_Page();
+		 
+	}
+
+}

@@ -1,0 +1,46 @@
+package productCheckoutPages;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
+
+import com.cucumber.listener.Reporter;
+
+import baseClass.Browser;
+import baseClass.Setdriver;
+import productCheckoutSteps.HomePage_Steps;
+
+
+
+//@SuppressWarnings("unused")
+public  class  HomePage { 
+	
+	public HomePage() {
+		PageFactory.initElements(Browser.driver, this);
+	}
+	
+	
+	@FindBy(how=How.CLASS_NAME, using = "login")
+	public  WebElement SignIn;
+	
+	
+
+	public void Sign_In() throws Exception
+	{
+	//		PageFactory.initElements(driver, this);
+		//driver.get("http://automationpractice.com/index.php");
+		
+	//driver.findElement(By.className("login")).click();
+		
+		 SignIn.click();
+		 System.out.println("Testing OK");
+		// return new LoginPage(driver);
+		 
+	//	Reporter.addStepLog("SigIn button not working");
+		
+	}
+}
