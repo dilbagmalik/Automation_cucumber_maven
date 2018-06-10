@@ -1,4 +1,4 @@
-package com.company.automation.pages;
+package com.company.automation.utilities;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.company.automation.pages.Browser;
+import com.company.automation.utilities.Browser;
 import com.cucumber.listener.Reporter;
 import com.google.common.io.Files;
 
