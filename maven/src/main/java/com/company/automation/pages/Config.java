@@ -1,4 +1,4 @@
-package com.company.automation.tests;
+package com.company.automation.pages;
 
 public class Config {
 
