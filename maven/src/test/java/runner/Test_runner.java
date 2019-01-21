@@ -27,7 +27,7 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(strict = false,
-features = {"C:\Program Files (x86)\Jenkins\workspace\gitbuild\maven\src\test\java\runner\"} 
+features = {"C:\\Program Files (x86)\\Jenkins\\workspace\\gitbuild\\maven\\src\\test\\java\runner\\"} 
 ,glue={"classpath:com.company.automation.tests"},
 //tags= {"@checkout"},
 plugin = {"pretty",
